@@ -8,7 +8,7 @@
         Title="Diagnostiques" Height="688" Width="1041" ResizeMode="CanMinimize" Icon="c:\_tech\Applications\source\images\Icone.ico" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="c:\_tech\Applications\Diagnostique\source\fondDiag.jpg"/>
+            <ImageBrush ImageSource="c:\_tech\Applications\Diagnostique\source\background_diag_Automne.png"/>
         </Grid.Background>
         <Button x:Name="Boutonbat" Content="Batterie" HorizontalAlignment="Left" Margin="445,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="Black" Background="White" BorderThickness="2,2,2,2" FontWeight="Bold"/>
         <Button x:Name="BoutonBattinfo" Content="Battinfo" HorizontalAlignment="Left" Margin="445,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="Black" Background="White" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
