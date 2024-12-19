@@ -9,7 +9,7 @@
     <Window.Resources>
         <ResourceDictionary Source="c:\_tech\Applications\source\Resources.xaml"/>
     </Window.Resources>
-    <Grid>
+    <Grid x:Name="GridDiagnostique">
         <Grid.Background>
             <ImageBrush ImageSource="c:\_tech\Applications\Diagnostique\source\Background_diagnostique.jpeg"/>
         </Grid.Background>
