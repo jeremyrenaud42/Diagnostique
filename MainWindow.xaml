@@ -6,36 +6,39 @@
         xmlns:local="clr-namespace:Diag"
         mc:Ignorable="d"
         Title="Diagnostiques" Height="688" Width="1041" ResizeMode="CanMinimize" Icon="c:\_tech\Applications\source\images\Icone.ico" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary Source="c:\_tech\Applications\source\Resources.xaml"/>
+    </Window.Resources>
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="c:\_tech\Applications\Diagnostique\source\Background_diagnostique.jpeg"/>
         </Grid.Background>
-        <Button x:Name="btnbat" Content="Batterie" HorizontalAlignment="Left" Margin="445,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="Black" Background="White" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnBattinfo" Content="Battinfo" HorizontalAlignment="Left" Margin="445,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="Black" Background="White" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnBattMonitor" Content="BattMonitor" HorizontalAlignment="Left" Margin="445,175,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="Black" Background="White" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnDontsleep" Content="Dontsleep" HorizontalAlignment="Left" Margin="445,250,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="Black" Background="White" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnCPU" Content="CPU" HorizontalAlignment="Left" Margin="105,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnAida" Content="Aida" HorizontalAlignment="Left" Margin="105,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnCoretemp" Content="Core Temp" HorizontalAlignment="Left" Margin="105,175,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnPrime95" Content="Prime95" HorizontalAlignment="Left" Margin="105,250,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnHeavyLoad" Content="HeavyLoad" HorizontalAlignment="Left" Margin="105,325,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnThrottleStop" Content="ThrottleStop" HorizontalAlignment="Left" Margin="105,400,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnHDD" Content="HDD" HorizontalAlignment="Left" Margin="280,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkcyan" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnHDSentinnel" Content="HDSentinnel" HorizontalAlignment="Left" Margin="280,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkcyan" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnHDTune" Content="HDTune" HorizontalAlignment="Left" Margin="280,325,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkcyan" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnASSD" Content="As_SSD" HorizontalAlignment="Left" Margin="280,250,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkcyan" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnDiskmark" Content="Diskmark" HorizontalAlignment="Left" Margin="280,175,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkcyan" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnGPU" Content="GPU" HorizontalAlignment="Left" Margin="760,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="yellow" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnFurmark" Content="Furmark" HorizontalAlignment="Left" Margin="760,175,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="yellow" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnUnigine" Content="Unigine" HorizontalAlignment="Left" Margin="760,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="yellow" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnFurmarkV2" Content="Furmark V2" HorizontalAlignment="Left" Margin="760,250,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="yellow" BorderThickness="2,2,2,2" FontWeight="Bold" Visibility="Collapsed"/>
-        <Button x:Name="btnRAM" Content="RAM" HorizontalAlignment="Left" Margin="600,100,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkgray" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnQuit" Content="Quitter" HorizontalAlignment="Left" Margin="469,575,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkred" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnMenu" Content="Menu principal" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkred" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnSysinfo" Content="Sysinfo" HorizontalAlignment="Left" Margin="825,525,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="red" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnWhocrashed" Content="Whocrashed" HorizontalAlignment="Left" Margin="625,525,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="darkgreen" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnHWMonitor" Content="HWMonitor" HorizontalAlignment="Left" Margin="325,525,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="magenta" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Button x:Name="btnSpeccy" Content="Speccy" HorizontalAlignment="Left" Margin="105,525,0,0" VerticalAlignment="Top" Height="55" Width="120" FontFamily="Microsoft Sans Serif" FontSize="12" Foreground="black" Background="green" BorderThickness="2,2,2,2" FontWeight="Bold"/>
-        <Label x:Name="label" Width="325" Height="55" FontFamily="Microsoft Sans Serif" FontSize="16" Foreground="White" Background="DarkRed" Content="Choisissez une option" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="358,35,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnbat" Content="Batterie" Style="{StaticResource ButtonStyle}" Margin="445,100,0,0"  Background="White"/>
+        <Button x:Name="btnBattinfo" Content="Battinfo" Style="{StaticResource ButtonStyle}" Margin="445,100,0,0"  Background="White" Visibility="Collapsed"/>
+        <Button x:Name="btnBattMonitor" Content="BattMonitor" Style="{StaticResource ButtonStyle}" Margin="445,175,0,0"  Background="White" Visibility="Collapsed"/>
+        <Button x:Name="btnDontsleep" Content="Dontsleep" Style="{StaticResource ButtonStyle}" Margin="445,250,0,0"  Background="White" Visibility="Collapsed"/>
+        <Button x:Name="btnCPU" Content="CPU" Style="{StaticResource ButtonStyle}" Margin="105,100,0,0"  Background="red"/>
+        <Button x:Name="btnAida" Content="Aida" Style="{StaticResource ButtonStyle}" Margin="105,100,0,0"  Background="red" Visibility="Collapsed"/>
+        <Button x:Name="btnCoretemp" Content="Core Temp" Style="{StaticResource ButtonStyle}" Margin="105,175,0,0"  Background="red" Visibility="Collapsed"/>
+        <Button x:Name="btnPrime95" Content="Prime95" Style="{StaticResource ButtonStyle}" Margin="105,250,0,0"  Background="red" Visibility="Collapsed"/>
+        <Button x:Name="btnHeavyLoad" Content="HeavyLoad" Style="{StaticResource ButtonStyle}" Margin="105,325,0,0"  Background="red" Visibility="Collapsed"/>
+        <Button x:Name="btnThrottleStop" Content="ThrottleStop" Style="{StaticResource ButtonStyle}" Margin="105,400,0,0"  Background="red" Visibility="Collapsed"/>
+        <Button x:Name="btnHDD" Content="HDD" Style="{StaticResource ButtonStyle}" Margin="280,100,0,0"  Background="darkcyan"/>
+        <Button x:Name="btnHDSentinnel" Content="HDSentinnel" Style="{StaticResource ButtonStyle}" Margin="280,100,0,0"  Background="darkcyan" Visibility="Collapsed"/>
+        <Button x:Name="btnHDTune" Content="HDTune" Style="{StaticResource ButtonStyle}" Margin="280,325,0,0"  Background="darkcyan" Visibility="Collapsed"/>
+        <Button x:Name="btnASSD" Content="As_SSD" Style="{StaticResource ButtonStyle}" Margin="280,250,0,0"  Background="darkcyan" Visibility="Collapsed"/>
+        <Button x:Name="btnDiskmark" Content="Diskmark" Style="{StaticResource ButtonStyle}" Margin="280,175,0,0"  Background="darkcyan" Visibility="Collapsed"/>
+        <Button x:Name="btnGPU" Content="GPU" Style="{StaticResource ButtonStyle}" Margin="760,100,0,0"  Background="yellow"/>
+        <Button x:Name="btnFurmark" Content="Furmark" Style="{StaticResource ButtonStyle}" Margin="760,175,0,0"  Background="yellow" Visibility="Collapsed"/>
+        <Button x:Name="btnUnigine" Content="Unigine" Style="{StaticResource ButtonStyle}" Margin="760,100,0,0"  Background="yellow" Visibility="Collapsed"/>
+        <Button x:Name="btnFurmarkV2" Content="Furmark V2" Style="{StaticResource ButtonStyle}" Margin="760,250,0,0"  Background="yellow" Visibility="Collapsed"/>
+        <Button x:Name="btnRAM" Content="RAM" Style="{StaticResource ButtonStyle}" Margin="600,100,0,0"  Background="darkgray"/>
+        <Button x:Name="btnQuit" Content="Quitter" Style="{StaticResource ButtonStyle}" Margin="469,575,0,0"  Background="darkred"/>
+        <Button x:Name="btnMenu" Content="Menu principal" Style="{StaticResource ButtonStyle}" Margin="25,25,0,0"  Background="darkred"/>
+        <Button x:Name="btnSysinfo" Content="Sysinfo" Style="{StaticResource ButtonStyle}" Margin="825,525,0,0"  Background="red"/>
+        <Button x:Name="btnWhocrashed" Content="Whocrashed" Style="{StaticResource ButtonStyle}" Margin="625,525,0,0"  Background="darkgreen"/>
+        <Button x:Name="btnHWMonitor" Content="HWMonitor" Style="{StaticResource ButtonStyle}" Margin="325,525,0,0"  Background="magenta"/>
+        <Button x:Name="btnSpeccy" Content="Speccy" Style="{StaticResource ButtonStyle}" Margin="105,525,0,0"  Background="green"/>
+        <Label x:Name="label" Width="325" Style="{StaticResource LabelStyle}" Background="DarkRed" Content="Choisissez une option" VerticalAlignment="Top" Margin="0,20,0,0"/>
     </Grid>
 </Window>
