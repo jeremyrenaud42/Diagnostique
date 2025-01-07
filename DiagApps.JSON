@@ -1,173 +1,182 @@
 {
-  "Adobe Reader": {
-    "path64": "$env:SystemDrive\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\Acrobat.exe",
-    "path32": "$env:SystemDrive\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd32.exe",
-    "pathAppData": "$env:SystemDrive\\Users\\$env:username\\AppData\\Local\\Adobe\\Acrobat\\DC",
-    "WingetName": "Adobe.Acrobat.Reader.64-bit",
-    "ChocoName": "adobereader",
-    "NiniteName": "Reader_fr_install.exe",
-    "NiniteGithubLink": "https://raw.githubusercontent.com/jeremyrenaud42/Installation/main/Ninite/Reader_fr_install.exe"
-  },
     "Battinfo": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "ChocoName": "batteryinfoview",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Dontsleep": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
       "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Aida": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
       "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Core Temp": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "ALCPU.CoreTemp",
+      "ChocoName": "coretemp",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Prime95": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "ChocoName": "prime95.portable",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "HeavyLoad": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "XPFMMCR4R5MXGS",
+      "ChocoName": "heavyload.portable",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "HDSentinnel": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "XPDNXG5333CSVK",
+      "ChocoName": "hdsentinel",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "HDTune": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "EFDSoftware.HDTunePro",
+      "ChocoName": "hdtune",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "As_SSD": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "ChocoName": "as-ssd",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Diskmark": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "XPDNKFM52KNR94",
+      "ChocoName": "crystaldiskinfo.portable",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Furmark": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "Geeks3D.FurMark",
+      "ChocoName": "furmark",
+      "RemoteName": null,
+      "RemoteLink": null
+    },
+    "FurmarkV2": {
+      "InstalledStatus": "0",
+      "path64": null,
+      "path32": null,
+      "pathAppData": null,
+      "WingetName": "Geeks3D.FurMark",
+      "ChocoName": "furmark",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Unigine": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "Unigine.SuperpositionBenchmark",
+      "ChocoName": "superposition-benchmark",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Sysinfo": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
       "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Whocrashed": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "Resplendence.WhoCrashed",
+      "ChocoName": "whocrashed",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "HWMonitor": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "CPUID.HWMonitor",
+      "ChocoName": "hwmonitor",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Speccy": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
-    },
-    "Burnintest": {
-      "path64": null,
-      "path32": null,
-      "pathAppData": null,
-      "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "WingetName": "XPFFT31D40MGFQ",
+      "ChocoName": "speccy",
+      "RemoteName": null,
+      "RemoteLink": null
     },
     "Trottlestop": {
+      "InstalledStatus": "0",
       "path64": null,
       "path32": null,
       "pathAppData": null,
       "WingetName": null,
-      "ChocoName": null,
-      "NiniteName": null,
-      "NiniteGithubLink": null
+      "ChocoName": "throttlestop",
+      "RemoteName": null,
+      "RemoteLink": null
     }
 }
